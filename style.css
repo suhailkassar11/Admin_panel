@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    height: auto;
+    width: 100%;
+
+}
+.left{
+    width: 20%;
+    height: 60rem;
+    background-color: antiquewhite;
+}
+.right{
+    width:80%;
+    height: auto;
+}
+.puppy{
+    display: flex;    
+    align-items: center;
+    margin: 1.5rem;
+    gap: 15px;
+}
+.logo{
+    height: 25px;
+    height: 25px;
+}
+.side_list{
+    margin:1rem ;
+    align-items: center;
+    
+}
+.list{
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+.right{
+    display: grid;
+    grid-template-rows:25vh 75vh ;
+}
+.upper_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.lower_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav_list{
+    margin:15px;
+    margin-top: 0px;
+    padding: 5px;
+    font-size: larger;
+    background-color: rgb(240, 190, 98);
+    border-radius: 5rem;
+    width: 5rem;
+    text-align: center;
+}
+.project{
+    margin: 30px;
+}
+.main_content{
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: aliceblue;
+    justify-content: center;
+}
+.card_container{
+    height: auto;
+    display: grid;
+    grid-template-columns:auto auto;
+    column-gap: 1.2rem;
+    row-gap: 2rem;
+
+    
+}
+.card{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 1rem;
+    border-left: 1.2rem solid rgb(243, 179, 60);
+    box-shadow: .5rem .5rem .2rem wheat;
+    /* background: linear-gradient(to bottom, #ff0000, #00ff00) */
+}
+.card1{
+    border: 1px solid black;
+    border-radius:1rem ;
+    padding: 2rem;
+}
